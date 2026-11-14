@@ -1,0 +1,24 @@
+{
+  "brief": {"brand": "OO코스메틱", "product": "수분크림", "target": "20대 건성피부", "goal": "신제품 인지도",
+            "category": "뷰티", "mood": "청량", "desired_length_sec": 15, "talent_available": true},
+  "trend_candidates": [
+    {"element_id": "h1", "trend_id": "trendA", "type": "hook", "value": "결과 선공개 Before/After", "viral_score_avg": 82, "tags": ["뷰티"]},
+    {"element_id": "h2", "trend_id": "trendB", "type": "hook", "value": "공감 질문형", "viral_score_avg": 74, "tags": ["20대"]},
+    {"element_id": "h3", "trend_id": "trendE", "type": "hook", "value": "ASMR 텍스처 클로즈업", "viral_score_avg": 70, "tags": ["뷰티", "청량"]},
+    {"element_id": "h4", "trend_id": "trendX", "type": "hook", "value": "타 브랜드 비교 디스", "viral_score_avg": 88, "controversy_risk": "높음"},
+    {"element_id": "s1", "trend_id": "trendA", "type": "structure", "value": "Before-Use-After", "viral_score_avg": 80,
+     "segments": [{"role": "hook", "ratio": 0.13}, {"role": "product", "ratio": 0.4}, {"role": "cta", "ratio": 0.47}]},
+    {"element_id": "s2", "trend_id": "trendB", "type": "structure", "value": "고민-해결-CTA", "viral_score_avg": 72,
+     "segments": [{"role": "hook", "ratio": 0.2}, {"role": "body", "ratio": 0.5}, {"role": "cta", "ratio": 0.3}]},
+    {"element_id": "c1", "trend_id": "trendC", "type": "camera", "value": "탑뷰 손등 테스트", "viral_score_avg": 76},
+    {"element_id": "c2", "trend_id": "trendB", "type": "camera", "value": "정면 셀카", "viral_score_avg": 69},
+    {"element_id": "b1", "trend_id": "trendD", "type": "bgm", "value": "Sunset Drive (Remix)", "viral_score_avg": 84, "tags": ["청량"]},
+    {"element_id": "b2", "trend_id": "trendF", "type": "bgm", "value": "Lo-fi Morning", "viral_score_avg": 71,
+     "controversy_risk": "보통", "sentiment": {"positive": 0.4, "neutral": 0.25, "negative": 0.35}},
+    {"element_id": "t1", "trend_id": "trendC", "type": "cta", "value": "프로필 링크 유도", "viral_score_avg": 73},
+    {"element_id": "t2", "trend_id": "trendB", "type": "cta", "value": "댓글 질문 유도", "viral_score_avg": 70},
+    {"element_id": "g1", "trend_id": "trendA", "type": "hashtag", "value": "#수분폭탄크림", "viral_score_avg": 75},
+    {"element_id": "g2", "trend_id": "trendG", "type": "hashtag", "value": "#건성피부템", "viral_score_avg": 72,
+     "sentiment": {"positive": 0.3, "neutral": 0.2, "negative": 0.5}}
+  ]
+}

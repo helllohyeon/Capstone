@@ -1,0 +1,2 @@
+pydantic>=2
+# 선택: anthropic 또는 openai (LLM_PROVIDER에 맞춰 설치)

@@ -1,0 +1,174 @@
+{
+ "plan_id": "plan_caa55891f924#A",
+ "plan": {
+  "candidate_id": "A",
+  "concept": "Before/After 결과 선공개형",
+  "differentiation_note": "결과를 먼저 보여줌",
+  "recommended_length_sec": 15,
+  "hook": {
+   "type": "결과 선공개 Before/After",
+   "line": "2주 만에 이렇게 달라졌어요"
+  },
+  "scene_by_scene": [
+   {
+    "range": "0-2s",
+    "role": "hook",
+    "content": "피부 Before/After 컷",
+    "camera": "탑뷰 손등 테스트",
+    "source_trend_id": "trendA"
+   },
+   {
+    "range": "2-8s",
+    "role": "product",
+    "content": "제품 텍스처와 흡수력",
+    "camera": "탑뷰 손등 테스트",
+    "source_trend_id": "trendA"
+   },
+   {
+    "range": "8-15s",
+    "role": "cta",
+    "content": "사용법과 CTA",
+    "camera": "탑뷰 손등 테스트",
+    "source_trend_id": "trendC"
+   }
+  ],
+  "voice_script": "건성 피부 2주 결과 먼저 보여드릴게요",
+  "subtitles": [
+   "2주 만에 달라진 피부",
+   "속당김 걱정 끝"
+  ],
+  "cut_timing": [
+   "0s",
+   "2s",
+   "8s",
+   "15s"
+  ],
+  "bgm": {
+   "track": "Sunset Drive (Remix)",
+   "source_trend_id": "trendD"
+  },
+  "caption": "c",
+  "hashtags": [
+   "#수분폭탄크림"
+  ],
+  "cta": "프로필 링크에서 더 알아보기",
+  "trend_mix_breakdown": [
+   {
+    "trend_id": "trendA",
+    "element": "hook: 결과 선공개 Before/After",
+    "applied_to": "0-2s"
+   },
+   {
+    "trend_id": "trendA",
+    "element": "structure: Before-Use-After",
+    "applied_to": "전체"
+   },
+   {
+    "trend_id": "trendC",
+    "element": "camera: 탑뷰 손등 테스트",
+    "applied_to": "전체"
+   },
+   {
+    "trend_id": "trendD",
+    "element": "bgm: Sunset Drive (Remix)",
+    "applied_to": "전체"
+   },
+   {
+    "trend_id": "trendC",
+    "element": "cta: 프로필 링크 유도",
+    "applied_to": "8-15s"
+   }
+  ],
+  "caution_flags": [],
+  "mix_score": 411.6
+ },
+ "video_asset_id": "va_001",
+ "b_status": "completed",
+ "video_analysis": {
+  "summary": "수분크림 Before/After 리뷰",
+  "hook": {
+   "description": "결과 선공개",
+   "strength": "strong"
+  },
+  "subtitle": {
+   "exists": true,
+   "position": "bottom",
+   "style": "white bold"
+  },
+  "product": {
+   "exists": true,
+   "description": "흰색 수분크림 용기"
+  },
+  "scene_details": [
+   {
+    "scene_number": 1,
+    "start_second": 0.0,
+    "end_second": 2.0,
+    "section": "hook",
+    "visual_description": "Before/After",
+    "on_screen_text": "2주 만에 이렇게 달라졌어요",
+    "audio_or_dialogue": "",
+    "purpose": "hook"
+   },
+   {
+    "scene_number": 2,
+    "start_second": 2.0,
+    "end_second": 3.0,
+    "section": "hook",
+    "visual_description": "제품",
+    "on_screen_text": "속당김 걱정 끝",
+    "audio_or_dialogue": "",
+    "purpose": "제품 소개"
+   },
+   {
+    "scene_number": 3,
+    "start_second": 3.0,
+    "end_second": 9.0,
+    "section": "body",
+    "visual_description": "텍스처",
+    "on_screen_text": null,
+    "audio_or_dialogue": "흡수가 빨라요",
+    "purpose": "제품 소개"
+   },
+   {
+    "scene_number": 4,
+    "start_second": 9.0,
+    "end_second": 12.0,
+    "section": "body",
+    "visual_description": "사용법",
+    "on_screen_text": null,
+    "audio_or_dialogue": "",
+    "purpose": "사용법"
+   },
+   {
+    "scene_number": 5,
+    "start_second": 12.0,
+    "end_second": 18.0,
+    "section": "body",
+    "visual_description": "마무리",
+    "on_screen_text": "프로필 링크 확인",
+    "audio_or_dialogue": "",
+    "purpose": "CTA"
+   }
+  ],
+  "audio_analysis": {
+   "speech_present": true,
+   "language": "ko",
+   "transcript": [
+    {
+     "start_second": 0.3,
+     "end_second": 1.8,
+     "speaker": "인물 A",
+     "text": "건성 피부 2주 결과 보여드릴게요"
+    }
+   ],
+   "sound_events": [],
+   "background_music": {
+    "exists": true,
+    "mood": "upbeat",
+    "tempo": "medium",
+    "vocals": false
+   }
+  }
+ }
+}

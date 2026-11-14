@@ -1,0 +1,24 @@
+{
+  "reel_id": "DcSDbXNCtfd",
+  "report_type": "post_publish",
+  "viral_score": {"total": 86, "performance": 90, "relative": 88, "growth": 85, "engagement": 80, "content": 84, "trend": 82},
+  "status_label": "급상승",
+  "performance_metrics": {"views": 240000, "likes": 18500, "comments": 730, "followers": 32000, "account_median_views": 50000},
+  "growth_series": [{"t": "2h", "views": 13000}, {"t": "6h", "views": 58000}, {"t": "12h", "views": 151000}, {"t": "24h", "views": 240000}],
+  "hook_analysis": {"type": "결과선공개+Before/After", "strength": "strong", "first_product_sec": 0.7},
+  "scene_structure": [
+    {"scene": 1, "range": "0.0-1.8s", "content": "피부 Before/After 결과 컷", "role": "Hook"},
+    {"scene": 2, "range": "1.8-6.0s", "content": "제품 텍스처 샷", "role": "제품 소개"},
+    {"scene": 3, "range": "6.0-15.0s", "content": "사용법 시연", "role": "본문"}
+  ],
+  "bgm_analysis": {"track": "Sunset Drive (Remix)", "trend_growth_pct": 82},
+  "caption_hashtag": {"keywords": ["수분크림", "건성피부", "속당김"], "hashtags": ["#수분폭탄크림", "#건성피부템"], "cta": "프로필 링크"},
+  "success_factors": [
+    {"factor": "상승 트렌드 BGM", "evidence": "최근 7일 사용량 +82%", "weight": 0.21},
+    {"factor": "결과 선공개 Hook", "evidence": "3초 이탈률 계정 평균 대비 -40%p", "weight": 0.34},
+    {"factor": "3초 이내 제품 노출", "evidence": "0.7초 첫 등장", "weight": 0.18}
+  ],
+  "improvement_points": [{"issue": "CTA 등장 12초로 늦음", "benchmark": "고성과 평균 8초 이내", "recommendation": "CTA를 8~9초로 앞당기기"}],
+  "next_content_recommendation": {"hook_options": ["실패 사례 먼저 보여주기"], "structure": ["Before-Use-After"], "bgm": ["상승 트렌드 음원"], "hashtags": ["#수분폭탄크림"]},
+  "predicted": {"views_24h": 180000}
+}
